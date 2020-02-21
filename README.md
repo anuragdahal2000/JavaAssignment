@@ -28,4 +28,5 @@ Syntax:
 interface inteface_name{ ........ } interface nested_interface_name{ .......... }
 
 Q. How to create your own Exception class?
+
 Ans: Java provides us facility to create our own exception which are basically derived classes of Exception. Now, let's see how to create a custom exception on action. . Create a new class whose name should end with Exception. This is a convention to differentiate an exception class from regular ones. . Make the class extends one of the exceptions which are subtypes of the java.lang.EXcetion class. Generally, a custom exception class always extends directly from the Exception class. . Create a constructor with a String parameter which is the detail message of the exception. In construtor, simply call the super construtor. and pass the message.

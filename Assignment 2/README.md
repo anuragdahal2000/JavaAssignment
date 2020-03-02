@@ -1,4 +1,5 @@
 LayoutManagers
+
 The LayoutManagers are used to arrange components in a particular manner. LayoutManager is an interface that is implemented by all the classes of layout managers. There are following classes that represents the layout managers:
 
 BorderLayout
